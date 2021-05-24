@@ -1,0 +1,33 @@
+/* Color Theme Swatches in Hex */
+@font-face {
+  font-family: Momcake;
+  src: url(../assets/fonts/Momcake.otf);
+}
+
+html, body {
+  margin: 0;
+  height: 300%;
+  background-color: #FDE792;
+  font-family: Momcake;
+}
+
+.heading {
+  background-image: url("../assets/images/temp_heading.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 70vh;
+}
+
+.heading h1 {
+  color: #2E112D;
+  margin: 0px;
+  font-size: 10vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=main.css.map */
