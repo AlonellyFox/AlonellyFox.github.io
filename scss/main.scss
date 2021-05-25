@@ -21,6 +21,10 @@ html, body {
     height: 70vh;
 }
 
+.edge {
+    box-shadow: 0px 12px 30px $sunset-purple, 0px -10px 30px $sunset-purple;
+}
+
 .heading h1 {
     color: $sunset-purple;
     margin: 0px;
@@ -29,4 +33,11 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.content {
+    color: $sunset-purple;
+    width: 70%;
+    margin: 100px auto 100px auto;
+    font-size: 1.5em;
 }
